@@ -17,7 +17,7 @@ const Navbar = () => {
             </Typography>
         </FlexBetween>
 
-         {/* leftside */}
+         {/* rightside */}
          <FlexBetween gap="2rem">
             <Box sx={{"&:hover": {color: palette.primary[200]}}}>
                 <Link
