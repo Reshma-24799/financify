@@ -48,17 +48,17 @@ const monthSchema = new Schema(
 )
 const KPISchema = new Schema(
     {
-        tottalProfit: {
+        totalProfit: {
             type: mongoose.Types.Currency,
             currency: "USD",
             get: (v) => v / 100
         },
-        tottalRevenue: {
+        totalRevenue: {
             type: mongoose.Types.Currency,
             currency: "USD",
             get: (v) => v / 100
         },
-        tottalExpenses: {
+        totalExpenses: {
             type: mongoose.Types.Currency,
             currency: "USD",
             get: (v) => v / 100

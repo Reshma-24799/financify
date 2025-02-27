@@ -1,4 +1,3 @@
-import DashboardBox from "@/components/DashboardBox";
 import { Box, useMediaQuery } from "@mui/material";
 import Row1 from "./Row1";
 import Row2 from "./Row2";
@@ -8,11 +7,11 @@ const gridTemplateLarge = `
   "a b c"
   "a b c"
   "a b c"
-  "a b f"
+  "a b c"
   "d e f"
   "d e f"
-  "d h i"
-  "g h i"
+  "d h f"
+  "g h f"
   "g h j"
   "g h j"
 `;
@@ -28,6 +27,7 @@ const gridTemplateSmall = `
  "c"
  "c"
  "c"
+ "c"
  "d"
  "d"
  "d"
@@ -36,6 +36,7 @@ const gridTemplateSmall = `
  "f"
  "f"
  "f"
+ "f"
  "g"
  "g"
  "g"
@@ -43,8 +44,6 @@ const gridTemplateSmall = `
  "h"
  "h"
  "h"
- "i"
- "i"
  "j"
  "j"
 `;
